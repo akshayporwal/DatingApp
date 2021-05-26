@@ -36,6 +36,7 @@ namespace API
             services.AddApplicationService(_config);
             services.AddControllers();
             services.AddCors();
+            
             services.AddIdentityService(_config);
            
         }
